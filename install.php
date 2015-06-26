@@ -1,6 +1,6 @@
 <?php
-
-$link = 'https://ilyaut.ru/modx/modx-2.3.5-pl-advanced.zip';
+$version = file_get_contents('https://ilyaut.ru/download-modx/?api=getmodxlastversion');
+$link = 'https://ilyaut.ru/modx/modx-'.$version.'-pl-advanced.zip';
 $setupLocation = 'setup/index.php';
 
 
