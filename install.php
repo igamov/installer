@@ -1,6 +1,6 @@
 <?php
 
-$link = 'https://ilyaut.ru/modx/modx-2.3.4-pl-advanced.zip';
+$link = 'https://ilyaut.ru/modx/modx-2.3.5-pl-advanced.zip';
 $setupLocation = 'setup/index.php';
 
 
